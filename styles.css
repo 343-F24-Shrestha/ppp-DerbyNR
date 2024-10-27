@@ -13,6 +13,11 @@ body {
     flex: 1;
 }
 
+/* Custom Sage Green or Grass Green Navbar */
+.navbar-custom {
+    background-color: #88B04B; /* Sage green */
+}
+
 /* Active Page Styling */
 .navbar-custom .nav-link.active {
     background-color: white;
@@ -20,6 +25,11 @@ body {
     border-radius: 10px; /* Rounded corners */
     padding: 5px 10px; /* Optional padding for better spacing */
 }
+
+.navbar-custom .nav-link.active:hover {
+    color: #88B04B; /* Keep text green on hover */
+}
+
 
 .navbar-custom .navbar-brand,
 .navbar-custom .nav-link {
