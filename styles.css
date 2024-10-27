@@ -12,3 +12,17 @@ body {
 .container {
     flex: 1;
 }
+
+/* Custom Sage Green or Grass Green Navbar */
+.navbar-custom {
+    background-color: #88B04B; /* Sage green */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: white; /* White text for contrast */
+}
+
+.navbar-custom .nav-link:hover {
+    color: #F0F0F0; /* Slightly lighter on hover */
+}
